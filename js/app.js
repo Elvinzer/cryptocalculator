@@ -104,12 +104,7 @@ var app = new Vue({
                 }
             );
         },
-        calculateQty : function(){
-            console.log(this.allPrices)
-        },
         getSelectedPrice: function(){
-            console.log(this.selectedPaire)
-            console.log(this.allPrices)
             for (const item of this.allPrices.result) {
                 if (item.symbol.includes(this.selectedPaire)) {
                   return item.last_price;
