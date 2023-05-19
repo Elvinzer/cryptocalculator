@@ -112,7 +112,6 @@ var app = new Vue({
             console.log(this.allPrices)
             for (const item of this.allPrices.result) {
                 if (item.symbol.includes(this.selectedPaire)) {
-                    console.log(item.last_price)
                   return item.last_price;
                 }
               }
