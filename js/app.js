@@ -22,6 +22,10 @@ var app = new Vue({
                 value : ''
             },
             {
+                name :"ADAUSDT",
+                value : ''
+            },
+            {
                 name :"MATICUSDT",
                 value : ''
             },
