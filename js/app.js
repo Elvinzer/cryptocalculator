@@ -84,6 +84,10 @@ var app = new Vue({
             {
                 name :"DYDXUSDT",
                 value : ''
+            },
+            {
+                name :"THETAUSDT",
+                value : ''
             }
         ]
     },
