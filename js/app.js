@@ -88,6 +88,10 @@ var app = new Vue({
             {
                 name :"THETAUSDT",
                 value : ''
+            },
+            {
+                name :"CHZUSDT",
+                value : ''
             }
         ]
     },
