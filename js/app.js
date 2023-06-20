@@ -92,6 +92,10 @@ var app = new Vue({
             {
                 name :"CHZUSDT",
                 value : ''
+            },
+            {
+                name :"BTCUSDT",
+                value : ''
             }
         ]
     },
